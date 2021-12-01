@@ -14,7 +14,6 @@ class App extends Component {
 
   componentDidMount() {
     fetch('https://content-store.explore.bfi.digital/api/articles')
-    // fetch('https://jsonplaceholder.typicode.com/users')
       .then(res => res.json())
       .then(
         (result) => {
